@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/IcoMoon/fonts/icomoon.eot?1v8cc5');
+  src:  url('../fonts/IcoMoon/fonts/icomoon.eot?1v8cc5#iefix') format('embedded-opentype'),
+    url('../fonts/IcoMoon/fonts/icomoon.ttf?1v8cc5') format('truetype'),
+    url('../fonts/IcoMoon/fonts/icomoon.woff?1v8cc5') format('woff'),
+    url('../fonts/IcoMoon/fonts/icomoon.svg?1v8cc5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-objetivo2:before {
+  content: "\e975";
+}
+.icon-datos:before {
+  content: "\e976";
+}
+.icon-preparacion:before {
+  content: "\e9a8";
+}
+.icon-experiencias:before {
+  content: "\e9ae";
+}
+.icon-adicional:before {
+  content: "\e9b2";
+}
+.icon-objetivo:before {
+  content: "\e9b8";
+}
+.icon-portfolio:before {
+  content: "\e9ba";
+}
+.icon-google:before {
+  content: "\ea8c";
+}
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
