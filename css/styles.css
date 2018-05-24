@@ -1,0 +1,138 @@
+@font-face{
+	font-family: SciFly;
+	src: url(../fonts/SciFly/SciFly-Sans.ttf) format("opentype");
+}
+body{
+	margin: 0;
+}
+.cabezera_flex , .categorias_flex, .informacion_flex{
+	display: flex;
+    display: -webkit-flex;
+    text-align: center;
+}
+.cabezera_flex {
+	padding: 0;
+	font-family: SciFly;
+    -webkit-flex-direction: column;
+	background-color: rgb(0,206,209);
+}
+.contenedor_informacion{
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+}
+.categorias_flex{
+    -webkit-flex-direction: column;
+    min-width: 30%;
+    max-width: 30%;
+	background-color: rgb(224,255,255);
+}
+.categorias_flex img {
+	 border-radius: 25px;
+	 max-width: 70%;
+	 margin: 5% auto;
+	 max-height: 30%;
+}
+.categorias_flex ul{
+	padding: 0;
+}
+.categorias_flex li {
+	list-style-type: none;
+	background-color: rgb(0,206,209);
+	width: 100%;
+	transition: 0.9s;
+	flex-direction: row;
+}
+.categorias_flex li:hover {
+	margin-top: 4.0%;
+	background: rgba(0,0,0,.5);
+}
+.categorias_flex div{
+	font-family: SciFly;
+	font-size: 20px;
+	border-width: 0;
+	flex-direction: row;
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	cursor: pointer;
+}
+.categorias_flex div:hover {
+	transition: 0.4s;
+	color: white;
+}
+.informacion_flex{
+	display: none;
+    -webkit-flex-direction: column;
+    min-width: 70%;
+    max-width: 70%;
+    font-family: SciFly;
+    font-size: 25px;
+    color: rgb(224,255,255);
+	background-color: rgb(72,61,139);
+}
+.informacion_flex ul li,p{
+	list-style-type: none;
+	margin: 0.5%;
+}
+#carta_presentacion {
+	display: flex;
+}
+#menu-mobile{
+	min-width: 100%;
+	max-width: 100%;
+	display: none;
+	-webkit-flex-direction: row;
+}
+#menu-mobile ul li{
+	width: 16.666%;
+	height: 100%;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+#perfil-mobile{
+	max-width: 15%;
+	display: none;
+	border-radius: 15px;
+}
+@media only screen and (max-width: 800px){
+.informacion_flex{
+	max-width: 100%;
+	font-size: 20px;
+}
+.categorias_flex ul{
+	margin: 0;
+}
+.categorias_flex div{
+	font-size: 25px;
+}
+.categorias_flex div:hover{
+	transition: 0.9s;
+}
+.cabezera_flex{
+	background-color: rgb(224,255,255);
+}
+#datos{
+	min-width: 100%;
+}
+#Portfolio{
+	min-width: 100%;
+}
+#menu-mobile{
+	display: block;
+	font-size: 5px;
+}
+#menu-mobile ul li div{
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+#menu-desktop{
+	display: none;
+}
+#perfil-mobile{
+	display: inline-block;
+}
+}
